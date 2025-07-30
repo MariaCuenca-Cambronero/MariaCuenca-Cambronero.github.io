@@ -1,2 +1,2 @@
 # MariaCuenca-Cambronero.github.io
-jekyll-theme-minimal
+theme: jekyll-theme-minimal
