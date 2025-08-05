@@ -3496,7 +3496,9 @@ input, select, textarea {
 				#banner .logo {
 					margin: 0 0 1em 0;
 				}
-
+				#banner .logo {
+					cursor: pointer;
+				}
 					#banner .logo .icon {
 						font-size: 1.5em;
 					}
@@ -4151,5 +4153,6 @@ input, select, textarea {
 		}
 
 	}
+
 
 
