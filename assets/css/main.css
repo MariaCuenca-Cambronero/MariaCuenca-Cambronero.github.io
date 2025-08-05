@@ -2636,7 +2636,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: pointer;
+		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
@@ -3399,7 +3399,7 @@ input, select, textarea {
 			#banner .logo .icon {
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
-				cursor: default;
+				cursor: pointer;
 				display: inline-block;
 				font-size: 2em;
 				height: 2.25em;
@@ -4151,4 +4151,5 @@ input, select, textarea {
 		}
 
 	}
+
 
