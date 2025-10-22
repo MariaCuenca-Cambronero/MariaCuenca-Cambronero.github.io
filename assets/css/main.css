@@ -2845,6 +2845,20 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+/* Align content to top inside table cells */
+table.alt td {
+  vertical-align: top;
+}
+
+/* Style for photo column images */
+table.alt td.photo-cell img {
+  width: 180px;         /* Change size as you like */
+  height: auto;
+  border-radius: 6px;   /* Optional */
+  display: block;
+}
+
+
 /* Button */
 
 	input[type="submit"],
@@ -4153,6 +4167,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
