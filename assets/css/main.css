@@ -4168,6 +4168,29 @@ table.alt td.photo-cell img {
 
 	}
 
+/* === CV Button Style (outlined circle) === */
+.cv-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid #d4c11c; /* green border */
+  color: #88a97a; /* icon color matches border */
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  background: transparent; /* no fill */
+}
+
+.cv-button:hover {
+  border-color: #9bc38c; /* lighter on hover */
+  color: #9bc38c;
+  box-shadow: 0 0 12px rgba(155, 195, 140, 0.7); /* subtle glow */
+  transform: scale(1.08); /* slight hover effect */
+}
+
 
 
 
