@@ -4169,6 +4169,29 @@ table.alt td.photo-cell img {
 	}
 
 
+/* === Top bar links === */
+#header .top-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Box-style buttons */
+#header .top-box {
+  padding: 0.4rem 0.9rem;
+  border: 2px solid #88a97a;
+  border-radius: 6px;
+  color: #88a97a;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#header .top-box:hover {
+  background-color: rgba(136, 169, 122, 0.15);
+  box-shadow: 0 0 8px rgba(136, 169, 122, 0.6);
+}
+
 
 /* === Top bar navigation fix === */
 #header nav {
@@ -4176,6 +4199,7 @@ table.alt td.photo-cell img {
   align-items: center;
   gap: 1rem;
 }
+
 
 
 
